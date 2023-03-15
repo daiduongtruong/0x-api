@@ -26,4 +26,4 @@ COPY . .
 RUN yarn build
 
 EXPOSE 3000
-CMD echo "use docker CLI to specify a startup command"
+CMD ["yarn", "start"]
